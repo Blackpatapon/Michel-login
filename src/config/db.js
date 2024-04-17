@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-const MONGO_URL = "mongodb://localhost:27017/login";
+const MONGO_URL = "mongodb+srv://luisohidalgovazquez:dominic06@cluster0.7rcgfy8.mongodb.net//login";
 
 export const connectDB = async () => {
   try {
