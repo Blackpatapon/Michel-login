@@ -1,0 +1,86 @@
+/* auth.css */
+
+/* Form Container */
+.form-container {
+  max-width: 600px;
+  padding: 15px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  background-color: #fff;
+display: block;
+margin: auto;
+}
+
+/* Form Title */
+.form-title {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+/* Table Style */
+.form-table {
+  width: 100%;
+}
+
+/* Table Row Style */
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+/* Table Cell Style */
+.form-cell {
+  flex: 1;
+  margin-right: 10px;
+}
+
+/* Label Style */
+.form-cell label {
+  display: block;
+  margin-bottom: 0.3rem;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+/* Input Style */
+.form-cell input,
+.form-cell select {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 0.9rem;
+  border: 1px solid #ccc;
+  border-radius: 0.2rem;
+  transition: border-color 0.3s ease-in-out;
+}
+
+/* Input Hover/Focus Effect */
+.form-cell input:focus,
+.form-cell select:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+/* Select Style */
+.form-cell select {
+  appearance: none;
+}
+
+/* Submit Button */
+.submit-btn {
+  background-color: #007bff;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  border: none;
+  border-radius: 0.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* Optional: Hover Effect for Submit Button */
+.submit-btn:hover {
+  background-color: #0056b3;
+}
